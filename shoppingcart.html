@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" type = "text/css" href = "css/shoppingcart.css"/>
+    <link rel = "stylesheet" type = "text/css" href = "font/iconfont.css"/>
+</head>
+<body>
+<!-- start top -->
+<div>
+    <div class = "top">
+        <ul class="top_server">
+            <li><a href = "#">客户服务</a></li>
+            <li class = "iconfont icon-duoyuyanjiantou_xia"></li>
+        </ul>
+        <ul class="top_right">
+            <ul class = "compare">
+                <li class = "iconfont icon-biao" id = "texter"></li>
+                <li><a href = "#" id = "texter">表款比较</a></li>
+                <ul class = "empty">
+                    <li class = "empty_top">腕表比较为空</li>
+                    <li class = "empty_bottom">请选择您所要比较的表款</li>
+                </ul>
+            </ul>
+            <ul class = "account">
+                <li class = "iconfont icon-lg-zh"  id = "texter"></li>
+                <li><a href = "#"  id = "texter">账户</a></li>
+            </ul>
+            <ul class = "shopping">
+                <li class = "iconfont icon-gouwudai-" id = "texte"></li>
+                <li><a href = "#" id = "texte">购物袋</a></li>
+                <ul class = "empt">
+                    <li class = "empt_tbb">您的购物车为空</li>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+</div>
+<!--end top-->
+<!--start header-->
+<div class = "header">
+    <ul class = "head">
+        <li class = "head_box">
+            <a href = "#">腕表选购</a>
+            <ul class = "head_nav">
+                <li class = "nav_text">
+                    <span><a href = "#">腕表</a></span>
+                    <span><a href = "#">建议</a></span>
+                    <span><a href = "#">新产品</a></span>
+                    <span><a href = "#">腕表选择器</a></span>
+                    <span><a href = "#">客户服务</a></span>
+                </li>
+                <li class = "nav_list">
+                    <ul class = "list_text">
+                        <li><img src = "img/te (1).jpg"/></li>
+                        <li class = "list_title">优雅</li>
+                        <li class = "list_tit">浪琴表心月系列</li>
+                        <li class = "list_tit">浪琴表黛卓维纳系列</li>
+                        <li class = "list_tit">浪琴表圆舞曲系列</li>
+                        <li class = "list_tit">浪琴表嘉岚系列</li>
+                        <li class = "list_tit">时尚系列</li>
+                        <li class = "list_tit">浪琴表律雅系列</li>
+                        <li class = "list_tit">军旗系列</li>
+                    </ul>
+                    <div class = "list_text">
+                        <ul class = "list_text">
+                            <li><img src = "img/wl.jpg"/></li>
+                            <li class = "list_title">制表传统</li>
+                            <li class = "list_tit">浪琴表博雅系列</li>
+                            <li class = "list_tit">浪琴表名匠系列</li>
+                            <li class = "list_tit">康铂系列</li>
+                            <li class = "list_tit">浪琴表典藏系列</li>
+                            <li class = "list_tit">开创者系列</li>
+                            <li class = "list_tit">浪琴表经典复刻系列1832腕表</li>
+                        </ul>
+                    </div>
+                    <div class = "list_text">
+                        <ul class = "list_text">
+                            <li><img src = "img/ty.jpg"/></li>
+                            <li class = "list_title">马术</li>
+                            <li class = "list_tit">马术系列</li>
+                        </ul>
+                    </div>
+                    <div class = "list_text">
+                        <ul class = "list_text">
+                            <li><img src = "img/t (1).jpg"/></li>
+                            <li class = "list_title">运动</li>
+                            <li class = "list_tit">康卡斯潜水系列</li>
+                            <li class = "list_tit">康卡斯系列</li>
+                        </ul>
+                    </div>
+                    <div class = "list_text">
+                        <ul class = "list_text">
+                            <li><img src = "img/(1).jpg"/></li>
+                            <li class = "list_title">经典复刻</li>
+                            <li class = "list_tit">经典复刻</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li class = "head_box">
+            <a href = "#">浪琴世界</a>
+            <ul class = "head_navv">
+                <li class = "navv_list">
+                    <ul class = "lists_text">
+                        <li><img src = "img/ambassadors_1.jpg"/></li>
+                        <li class = "list_title">大使</li>
+                        <li class = "list_tit">郭富城</li>
+                        <li class = "list_tit">艾西瓦娅·雷</li>
+                        <li class = "list_tit">阿克萨·兰德·斯文达尔</li>
+                        <li class = "list_tit">安德烈·阿加西</li>
+                        <li class = "list_tit">林志玲</li>
+                        <li class = "list_tit">彭于晏</li>
+                        <li class = "list_tit">朱利亚·斯特因博格</li>
+                        <li class = "list_tit">英国波佳·达库内提</li>
+                        <li class = "list_tit">珍·理查德</li>
+                        <li class = "list_tit">凯特·温斯莱特</li>
+                        <li class = "list_tit">米凯拉席弗琳</li>
+                        <li class = "list_tit">西蒙·贝克</li>
+                        <li class = "list_tit">···</li>
+                        <li class = "list_tit">观看所有大使→</li>
+                    </ul>
+                    <div class = "lists_text">
+                        <ul class = "lists_text">
+                            <li><img src = "img/events_1 (1).jpg"/></li>
+                            <li class = "list_title">浪琴表新闻</li>
+                            <li class = "list_tit">大事记</li>
+                            <li class = "list_tit">马术运动</li>
+                            <li class = "list_tit">法国网球公开赛</li>
+                            <li class = "list_tit">体操</li>
+                            <li class = "list_tit">高山滑雪</li>
+                            <li class = "list_tit">射箭</li>
+                            <li class = "list_tit">英联邦运动会</li>
+                            <li class = "list_tit">合作伙伴</li>
+                        </ul>
+                    </div>
+                    <div class = "lists_text">
+                        <ul class = "lists_text">
+                            <li><img src = "img/news_1 (1).jpg"/></li>
+                            <li class = "list_title">最新消息</li>
+                            <li class = "list_tit">浏览我们的最新消息</li>
+                        </ul>
+                    </div>
+                    <div class = "lists_text">
+                        <ul class = "lists_text">
+                            <li><img src = "img/films_1.jpg"/></li>
+                            <li class = "list_title">影片</li>
+                            <li class = "list_tit">请欣赏我们的短片</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><a href = "#"><img src = "img/logo.svg"></a></li>
+        <li class = "head_box"><a href = "#">品牌</a>
+            <ul class = "head_nan">
+                <li class = "nan_list">
+                    <ul class = "listn_text">
+                        <li><img src = "img/profile_1.jpg"/></li>
+                        <li class = "list_title">公司简介</li>
+                        <li class = "list_tit">浪琴表简介</li>
+                        <li class = "list_tit">霍凯诺</li>
+                        <li class = "list_tit">斯沃琪集团(Swatch group)简介</li>
+
+                    </ul>
+                    <div class = "listn_text">
+                        <ul class = "listn_text">
+                            <li><img src = "img/history_1 (1).jpg"/></li>
+                            <li class = "list_title">历史年表</li>
+                            <li class = "list_tit">品牌历史</li>
+                            <li class = "list_tit">我的腕表历史</li>
+
+                        </ul>
+                    </div>
+                    <div class = "listn_text">
+                        <ul class = "listn_text">
+                            <li><img src = "img/museum_1 (1).jpg"/></li>
+                            <li class = "list_title">陈列馆</li>
+                            <li class = "list_tit">浪琴表博物馆</li>
+                            <li class = "list_tit">360°虚拟参观</li>
+                            <li class = "list_tit">预定参观展览</li>
+                            <li class = "list_tit">如何找到我们/开放时间</li>
+                        </ul>
+                    </div>
+                    <div class = "listn_text">
+                        <ul class = "listn_text">
+                            <li><img src = "img/human-resources_1 (1).jpg"/></li>
+                            <li class = "list_title">人力资源</li>
+                            <li class = "list_tit">我们是谁？</li>
+                            <li class = "list_tit">全球职业发展</li>
+                            <li class = "list_tit">在瑞士的职业发展</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </li>
+        <li><a href = "#">零售店</a></li>
+    </ul>
+    <ul class = "search">
+        <li><a href = "#">搜索</a></li>
+        <li class = "iconfont icon-sousuo"></li>
+    </ul>
+</div>
+</div>
+<!--end header-->
+<!--start shopping-->
+<div class = "shopp">
+    <div class = "bag">
+        <span>主页 / 购物袋</span>
+    </div>
+    <div class = "continue">
+        <ul class = "continue_center">
+            <ul>
+                <li>
+                    <span class = "car">我的购物车(1)</span>
+                </li>
+                <li class = "center_text">
+                    <span><img src = "img/s1.gif"/></span>
+                    <span>安全购物保障</span>
+                </li>
+            </ul>
+            <li class = "keeping">
+                <a href = "#" >继续购物</a><img src = "img/j2.gif" />
+            </li>
+            <li class = "pay">
+                <a href = "#" >结算支付</a><img src = "img/j1.gif" />
+            </li>
+        </ul>
+    </div>
+    <div class = "continue_list">
+        <div class = "list_center">
+            <div class = "list_left">
+                <span class = "watch">1 腕表</span><br/>
+                <span class = "mecart">在我的购物车中</span>
+                <table class = "left_top">
+                    <tr class = "left_topp">
+                        <td class = "first">
+                            <input type = "checkbox" style = "width:26px;height:26px;" class = "choose"/>
+                        </td>
+                        <td class = "second">
+                            <a href = "#">
+                                <img src = "img/d1.png"/>
+                            </a>
+                        </td>
+                        <td class = "third">
+                            <div class = "upper">
+                                <div class = "collection">
+                                    <p>浪琴表名匠系列</p>
+                                    <a href = "#">
+                                        <span>L2.128.4.78.3</span>
+                                    </a>
+                                </div>
+                                <div class = "radiou">
+                                    <div class = "radiou_left">
+                                        <span>数量</span>
+                                        <div class = "addbtn">
+                                            <input class="reduceCls" type="button" value="-" style = "width:20px;height:20px;" />
+                                            <input type=text class="spanIdOn0e" value="1" style = "width:20px;height:16px;"/>
+                                            <input class="addcls" type="button" value="+" style = "width:20px;height:20px;"/>
+                                        </div>
+                                    </div>
+                                    <div class = "radiou_center">
+                                        <span>价格</span>
+                                        <a href = "#">
+                                            <p>13800.00</p>
+                                        </a>
+                                    </div>
+                                    <div class = "radiou_right">
+                                        <span>小计</span>
+                                        <a href = "#">
+                                            <p class="price sumMoney">13800.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class = "radiou_bottom">
+                                    <span ><button class = "delete">×  移除</button></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table class = "left_top">
+                    <tr class = "left_topp">
+                        <td class = "first">
+                            <input type = "checkbox" style = "width:26px;height:26px;" class = "choose"/>
+                        </td>
+                        <td class = "second">
+                            <a href = "#">
+                                <img src = "img/d1.png"/>
+                            </a>
+                        </td>
+                        <td class = "third">
+                            <div class = "upper">
+                                <div class = "collection">
+                                    <p>浪琴表名匠系列</p>
+                                    <a href = "#">
+                                        <span>L2.128.4.78.3</span>
+                                    </a>
+                                </div>
+                                <div class = "radiou">
+                                    <div class = "radiou_left">
+                                        <span>数量</span>
+                                        <div class = "addbtn">
+                                            <input class="reduceCls" type="button" value="-" style = "width:20px;height:20px;" />
+                                            <input type=text class="spanIdOn0e" value="1" style = "width:20px;height:16px;"/>
+                                            <input class="addcls" type="button" value="+" style = "width:20px;height:20px;"/>
+                                        </div>
+                                    </div>
+                                    <div class = "radiou_center">
+                                        <span>价格</span>
+                                        <a href = "#">
+                                            <p>13800.00</p>
+                                        </a>
+                                    </div>
+                                    <div class = "radiou_right">
+                                        <span>小计</span>
+                                        <a href = "#">
+                                            <p class="price sumMoney">13800.00</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class = "radiou_bottom">
+                                    <span ><button class = "delete">×  移除</button></span>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div class = "optional_left">
+                    <div>
+                        <div class = "optional">
+                            <input type = "checkbox" class = "allchoose" style = "width:26px;height:26px;"/>
+                            <span>Gift Message (optional)</span>
+                        </div>
+                        <div class = "optiona">
+                            <span>有优惠码？请在此输入</span>
+                        </div>
+                        <div class = "option">
+                            <input type = "text" placeholder = "" style = "width:179px;height:49px;"/>
+                            <span class = "creat"> 加入</span>
+                        </div>
+                    </div>
+                    <div class = "optional_right">
+                        <div class = "optional_pay">
+                            <span>结算支付</span><img src = "img/j1.gif"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "list_right">
+                <h3>订单详情</h3>
+                <table class = "subtotal">
+                        <tr class = "subtotal_first">
+                            <th>SUBTOTAL</th>
+                            <td>￥ 13,800.00</td>
+                        </tr>
+                        <tr class = "subtotal_second">
+                            <th>配送</th>
+                            <td>免费</td>
+                        </tr>
+                        <tr class = "subtotal_third">
+                            <th >总计</th>
+                            <td class="totalMoneyS" id="totalMoney"></td>
+                        </tr>
+                </table>
+                <p class = "charge">免费送货</p>
+                <p class = "quick">免费，快速，安全配送</p>
+                <p class = "charge">电子发票</p>
+                <p class = "quick">浪琴使用电子发票，您可以参阅使用说明，在包裹内获得您的电子发票提取码，然后获取您的电子发票</p>
+                <p class = "charge">帮助</p>
+                <div class = "iphone">
+                    <p><img src = "img/电话.png"/></p><p class = "quick">400-828-3270</p>
+                </div>
+                <p class = "charge">安全付款</p>
+                <p class = "quick">支付方式</p>
+                <div class = "logo">
+                    <p class = "china"><a href = "#"><img src = "img/中国银联.png"/></a></p>
+                    <p class = "payb"><a href = "#"><img src = "img/支付宝.png"/></a></p>
+                    <p class = "weixin"><a href = "#"><img src = "img/微信支付.png"/></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end shopping-->
+<!--start swit-->
+<div class = "swit">
+    <ul class = "swite">
+        <li class = "swit_website">
+            <a href = "#">
+                <img src = "img/1.gif">
+            </a>
+            <span class = "swit_first">浪琴官方网站</span>
+            <span class = "swit_second">浪琴官方网站</span>
+            <span class = "swit_second">瑞士制造</span>
+            <span class = "swit_second">品牌保修服务</span>
+        </li>
+        <li class = "swit_fieight">
+            <span class = "iconfont icon-baoguoxiangzi"></span>
+            <span class = "swit_first">免运费配送服务</span>
+            <span class = "swit_second">免运费服务</span>
+        </li>
+        <li class = "swit_pay">
+            <span class = "iconfont icon-zhifufangshi"></span>
+            <span class = "swit_first">支付方式</span>
+            <span class = "swit_second">安全支付保障</span>
+            <span class = "swit_second">在线支付方式</span>
+            <ul class = "vector">
+                <li><span class = "iconfont icon-ziyuan"></span></li>
+                <li><span class = "iconfont icon-zhifubao1"></span></li>
+                <li><span class = "iconfont icon-iconzhi02"></span></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+<!--end swit-->
+<!--start business license-->
+<div class = "business">
+    <div class = "license">
+        <span>泸ICP备：16030460号-4<br/>&copy;Longines Watch Co. Ltd. All rights reserved</span><br/>
+        <a href = "#"><img src = "img/beian_icon.png"><span class = "license_text">查看营业执照</span></a>
+    </div>
+    <div class = "nav">
+        <div class = "nav_box"><a href = "#"><span>法律条款</span></a></div>
+        <div class = "nav_box"><a href = "#"><span>客户服务</span></a></div>
+        <div class = "nav_box"><a href = "#"><span>联络我们</span></a></div>
+        <div class = "nav_box"><a href = "#"><span>常见问题</span></a></div>
+    </div>
+</div>
+<!--end business license-->
+<!--start language-->
+<div class = "language">
+    <div class = "language_center">
+        <div class = "language_left">
+            <span class = "iconfont icon-yuyan"></span>
+            <span>语言</span>
+        </div>
+        <div class = "language_right">
+            <span>加入我们</span>
+            <span class = "iconfont icon-iconfontweixin"></span>
+            <span class = "iconfont icon-shipin"></span>
+            <span class = "iconfont icon-weibo"></span>
+            <span>售后服务</span>
+            <span class = "iconfont icon-iconfontweixin"></span>
+        </div>
+    </div>
+</div>
+<!--end lanuage-->
+<!--start mark-->
+<div class = "longines_mark">
+    <div class = "longines_center">
+        <div class = "longines_picture">
+            <a href = "#"><img src = "img/logo.svg" style = "width:170px;height:44px"></a>
+        </div>
+        <!--end mark-->
+        <!--start world-->
+        <ul class = "longines_world">
+            <li class = "longines_text">
+                <a href = "#"><p>腕表</p></a>
+                <a href = "#"><span>浪琴表新月系列</span></a>
+                <a href = "#"><span>浪琴表黛绰维纳系列</span></a>
+                <a href = "#"><span>浪琴表圆舞曲系列</span></a>
+                <a href = "#"><span>浪琴表嘉岚系列</span></a>
+                <a href = "#"><span>时尚系列</span></a>
+                <a href = "#"><span>浪琴表律雅系列</span></a>
+                <a href = "#"><span>军旗系列</span></a>
+                <a href = "#"><span>浪琴表博雅系列</span></a>
+                <a href = "#"><span>浪琴表名匠系列</span></a>
+            </li>
+            <li class = "longines_special">
+
+                <a href = "#"><span>康铂系列</span></a>
+                <a href = "#"> <span>浪琴表典藏系列</span></a>
+                <a href = "#"><span>开创者系列</span></a>
+                <a href = "#"><span>浪琴表经典复刻系列1832腕表</span></a>
+                <a href = "#"><span>马术系列</span></a>
+                <a href = "#"><span>康卡斯潜水系列</span></a>
+                <a href = "#"><span>康卡斯系列</span></a>
+                <a href = "#"><span>经典复刻</span></a>
+            </li>
+            <li class = "longines_text">
+                <a href = "#"><p>浪琴世界</p></a>
+                <a href = "#"><span>大事记</span></a>
+                <a href = "#"><span>大使</span></a>
+                <a href = "#"><span>浪琴表新闻</span></a>
+                <a href = "#"><span>合作伙伴</span></a>
+                <a href = "#"><span>最新消息</span></a>
+                <a href = "#"><span>影片</span></a>
+            </li>
+            <li class = "longines_text">
+                <a href = "#"><p>品牌</p></a>
+                <a href = "#"><span>公司简介</span></a>
+                <a href = "#"><span>历史年表</span></a>
+                <a href = "#"><span>陈列馆</span></a>
+                <a href = "#"><span>人力资源</span></a>
+            </li>
+            <li class = "longines_text">
+                <a href = "#"><p>有效链接</p></a>
+                <a href = "#"><span>零售店</span></a>
+                <a href = "#"><span>搜寻</span></a>
+                <a href = "#"><span>联络我们</span></a>
+                <a href = "#"><span>产品手册订购</span></a>
+                <a href = "#"><span>媒体中心</span></a>
+                <a href = "#"><span>常见问题</span></a>
+                <a href = "#"><span>客户服务</span></a>
+                <a href = "#"><span>电子报</span></a>
+                <a href = "#"><span>使用说明</span></a>
+                <a href = "#"><span>网站地图</span></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--end world-->
+<!--service-->
+<div class = "service">
+    <img src = "img/k1.gif"/>
+    <span>在线客服</span>
+</div>
+</body>
+</html>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/shoppingcart.js"></script>
+
+
